@@ -19,3 +19,10 @@ ex. on Linux:
 * add #!/usr/bin/env to the top of this script file
 * remove .py extension name
 * place it in /usr/bin/env
+  
+You are free to modify file as you like and do whatever you want with it.  
+Contributting to the repo is welcome
+
+Result:  
+![Alt text](example1.png)  
+![Alt text](example2.png)
