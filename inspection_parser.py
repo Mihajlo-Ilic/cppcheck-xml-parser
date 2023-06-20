@@ -51,7 +51,7 @@ for error in errors:
     ##teamcity[buildStatus status='<status_value>' text='{build.status.text} and some aftertext']
     stat = parse_severity(curr["severity"])
     if stat == "ERROR":
-        print(" ##teamcity[buildStatus status='FAILURE' text='ERROR and {}']".format(msg))
+        print(" ##teamcity[buildStatus status='FAILURE' text='ERROR {}']".format(msg))
 
     
 
